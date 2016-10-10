@@ -15,7 +15,7 @@
             android:layout_centerInParent="true"
             android:textSize="22sp"
             android:textColor="#ffffff"
-            android:text="小貅貅"/>
+            android:text="小秘"/>
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/id_ly_bottom"

@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="你好呀！"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:background="@drawable/chat_to_bg"
             android:layout_gravity="center_vertical"/>
         <!--消息内容为垂直居中-->
@@ -38,14 +38,14 @@
                 android:id="@+id/id_chat_to_icon"
                 android:layout_width="49dp"
                 android:layout_height="49dp"
-                android:src="@drawable/my"/>
+                android:src="@drawable/mypicture"/>
             <TextView
                 android:id="@+id/id_chat_to_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="在下"
-                android:textSize="18sp"/>
+                android:text="我"
+                android:textSize="12sp"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     private void initDatas()
     {
       mDatas=new ArrayList<ChatMessage>();
-        mDatas.add(new ChatMessage("你好，小貅貅为您服务",
+        mDatas.add(new ChatMessage("你好，小秘为您服务",
                 ChatMessage.Type.INCOMING,new Date()));
         //mDatas.add(new ChatMessage("你好", ChatMessage.Type.OUTCOMING,new Date()));
         mAdapter=new ChatMessageAdapter(this,mDatas); //适配器获得数据集

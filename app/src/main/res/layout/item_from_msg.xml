@@ -30,21 +30,21 @@
                 android:id="@+id/id_chat_from_icon"
                 android:layout_width="49dp"
                 android:layout_height="49dp"
-                android:src="@drawable/icon"/>
+                android:src="@drawable/duer"/>
             <TextView
                 android:id="@+id/id_chat_from_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="小貅貅"
-                android:textSize="16sp"/>
+                android:text="小秘"
+                android:textSize="12sp"/>
         </LinearLayout>
         <TextView
             android:id="@+id/id_from_msg_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="你好呀！"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:background="@drawable/chat_from_bg"
             android:layout_gravity="center_vertical"/>
         <!--消息内容为垂直居中-->
